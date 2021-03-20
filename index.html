@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Frontend using bootstrap</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" 
+    integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet"  href="style.css">
+    <script>
+      function change1()
+      {
+        document.getElementById("changing_image").innerHTML='<img src=./images/mob3.png>';
+      }
+      function change2()
+      {
+        document.getElementById("changing_image").innerHTML='<img src=./images/mob2.png>';
+      }
+      function change3()
+      {
+        document.getElementById("changing_image").innerHTML='<img src=./images/mob4.png>';
+      }
+      
+
+    </script>
+</head>
+<body>
+
+ <!-- <navigation> -->
+   <section class="block1">
+  <header>
+<div class="container-fluid ">
+  <nav class="navbar navbar-expand-lg navbar-light " style="text-align: center;">
+    <div class="image">
+    <img src="images/logo.png" class="img-fluid"  alt="responsive"></div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+      <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+        <li class="nav-item active px-2">
+          <a class="nav-link" href="#second" >What's New<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active px-2">
+          <a class="nav-link" href="#Team">Our Team</a>
+        </li>
+        <li class="nav-item active px-2 ">
+          <a class="nav-link " href="#Features">Features</a>
+        </li>
+        <li class="nav-item active px-2">
+          <a class="nav-link " href="#Testimonials">Testimonials</a>
+        </li>
+        <li class="nav-item active px-2">
+          <a class="nav-link" href="#Contact">Contact Us</a>
+        </li>
+        <button style="font-weight: bold;" type="button" class="btn btn-warning">Download</button>
+      </ul>
+    </div>
+  </nav>
+</div>
+</header>
+<!-- navigation ends -->
+
+<!-- second -->
+<second>
+  <div class="container-fluid">
+    <div class="row justify-content-center">
+     <div class="col-md-6" style="padding-top: 150px;padding-bottom: 150px;">
+    <h1 style="font-weight: bolder;">Loren Ipsum<br>
+      is Simply<br>
+      dummy text
+    </h1>
+    <p>Loren ipsum has been the industry's standard<br>
+    dummy text over since the 1500s.</p>
+    <img style="width: 180px;" src="./images/gplay.png">
+     </div> 
+    </div>
+    </div>
+    <div class="container-fluid" id="second">
+    <div class="row">
+    <div class="col-sm-6 " id="changing_image" style="text-align: center;">
+    <img src="./images/mob3.png" style="width: 250px;"> 
+    </div>
+    <div class="col-sm-6">
+    <h2 style="padding-bottom: 30px;padding-left: 10px;margin-top: 150px;">What is Khalihan Bazaar?</h2>
+    
+    <div class="col-sm-6">
+    <a onclick="change1()"><button type="button" class="btn btn-dark"><h6 style="text-align: left;"> Buy/Sell Commodities</h6>
+      <p style="font-size:small;padding-right: 80px;">Now farmers will become agripreneurs</p>
+    </button></a>
+    </div>
+    
+    <div class="col-sm-6">
+    <a onclick="change2()"><button type="button" class="btn btn-dark"><h6 style="text-align: left;">Contract Farming</h6>
+      <p style="font-size:small;padding-right: 50px;">Now collaborations with different industries</p>
+    </button></a>
+    </div>
+    
+    <div class="col-sm-6">
+    <a onclick="change3()"><button type="button" class="btn btn-dark"><h6 style="text-align: left;">National Level Buyers</h6>
+      <p style="font-size:small;padding-right: 75px;">Meet national level buyers with this app</p>
+    </button></a>
+    </div>
+    </div>
+    </div>
+    </div>
+</second>
+</section>
+
+<!-- third -->
+
+
+<middle>
+  <section class="grey" id="Team">
+    <div class="container-fluid" >
+      <div class="row justify-content-center" style="color: white;padding-top: 100px;" >	
+        <div>
+       <h2 style="text-align: center;font-weight:bolder;padding-bottom: 40px;">Our Team</h2> 	
+       <p style="text-align: center;font-size: small;padding-bottom: 50px;">Lorem ipsum, or lipsum as it is sometimes known, is dummy
+         text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter </p>
+      </div>	
+       <div class="row justify-content-around" style="margin-bottom: 50px;">
+            <div class="col-sm-6" >
+             <div> 
+            <h4 style="text-align: center;">Partners</h4>
+            <div class="text-block" style="width: 280px;background-color: rgb(236, 228, 106);color:black;border-radius: 8px;
+            line-height: 3px;padding-top: 10px;padding-bottom: 10px;padding-left:60px;margin-bottom: 20px;">
+            <h6>Anshul Jha</h6> 
+            <p style="padding-right: 40px;font-size: small;font-weight: 600;">MD, KHALIHAN BAZAAR</p> 
+            <p style="font-size: x-small;">Lorem ipsum, or lipsum as it is sometimes </p>
+            </div>
+            </div>
+            
+  <div class="text-block" style="width: 280px;background-color: rgb(236, 228, 106);color:black;border-radius: 8px;
+           line-height: 3px;padding-top: 10px;padding-bottom: 10px;padding-left:60px;">
+           <h6>Ramesh Tiwari</h6> 
+           <p style="padding-right: 40px;font-size: small;font-weight: 600;">CEO, KHALIHAN BAZAAR</p>
+           <p style="font-size: x-small;">Lorem ipsum, or lipsum as it is sometimes </p>
+           </div>
+           
+           
+         </div>
+         <div class="col-sm-6" >
+          <div> 
+         <h4 style="text-align: center;">Partners</h4>
+         <div class="text-block" style="width: 280px;background-color: rgb(236, 228, 106);color:black;border-radius: 8px;
+         line-height: 3px;padding-top: 10px;padding-bottom: 10px;padding-left:60px;margin-bottom: 20px;">
+         <h6>Anshul Jha</h6> 
+         <p style="padding-right: 40px;font-size: small;font-weight: 600;">MD, KHALIHAN BAZAAR</p>
+         <p style="font-size: x-small;">Lorem ipsum, or lipsum as it is sometimes </p>
+         </div>
+         </div>
+         
+<div class="text-block" style="width: 280px;background-color: rgb(236, 228, 106);color:black;border-radius: 8px;
+        line-height: 3px;padding-top: 10px;padding-bottom: 10px;padding-left:60px;">
+        <h6>Ramesh Tiwari</h6> 
+        <p style="padding-right: 40px;font-size: small;font-weight: 600;">CEO, KHALIHAN BAZAAR</p>
+        <p style="font-size: x-small;">Lorem ipsum, or lipsum as it is sometimes </p>
+        </div>
+        
+        
+      </div>
+          </div>
+
+        </div>
+          </div>  
+         
+  
+    </section>
+</middle>
+
+<!-- third ends -->
+
+
+<main>
+  <section class="app" id=Features>
+  <div class="container-fluid ">
+   <div class="row">
+    <div class="col-md-12 d-flex justify-content-center">
+    <h3 style="text-align: center;font-weight: bold;padding-top: 10px;padding-bottom: 30px;">Khalihan Bazaar App</h3>
+    </div>
+    <div class="col-md-12 d-flex justify-content-center">
+  
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner ">
+        <div class="carousel-item active ">
+            <img src="images/mob1.png" class="d-block w-100 img-fluid" alt="...">
+        </div>
+        <div class="carousel-item ">
+          <img src="images/mob2.png" class="d-block w-100 img-fluid" alt="...">
+        </div>
+        <div class="carousel-item ">
+          <img src="images/mob6.png" class="d-block w-100 img-fluid" alt="...">
+        </div>
+        <div class="carousel-item ">
+          <img src="images/mob3.png" class="d-block w-100 img-fluid" alt="...">
+        </div>
+        <div class="carousel-item ">
+          <img src="images/mob6.jpg" class="d-block w-100 img-fluid" alt="...">
+        </div>
+        </div>
+      </div>
+    </div>
+   </div>
+  </div>
+</section>
+</main>
+
+<landing>
+  <section class="blocks" id="Testimonials">
+    <div class="container-fluid" >
+      <div class="row justify-content-center">		
+      <div class="col-md-12 "> 
+     <img src="./images/shinchan.png" class="rounded mx-auto d-block img-fluid " style="padding-top: 100px;">
+     <h3 style="text-align: center;padding-top: 50px;">Khalihan Bazaar <span style="font-weight: bolder;">has thousands of 5-star reviews</span> </h3> 
+      </div>	
+          </div>
+          <div class="row justify-content-center ">	
+          <div class="col-md-2" style="margin-top: 100px;margin-right: 25px;">
+          <div class="text-truncate" style="background-color: rgb(53, 34, 34);color: white; width: 260px;
+          padding-left: 40px;border-radius: 8px;padding-top: 40px;height: 300px;" >
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+            <h6 style="letter-spacing: 2px;padding-top: 30px;padding-bottom: 10px;">Simply Amazing App</h6> 
+          <p style="font-size: 12px;font-weight: lighter;">Lorem ipsum, or lipsum as it is sometimes<br> known,
+             is dummy text used in laying out<br> print, 
+             graphic or web designs.</p><br>
+
+           <p style="font-size: small;">Anuj Jha ,Google Play</p>  
+          </div>
+          </div> 
+        
+            <div class="col-md-2" style="margin-top: 100px;margin-right: 25px;">
+              <div class="text-truncate" style="background-color: rgb(53, 34, 34);color: white; width: 260px;
+              padding-left: 40px;border-radius: 8px;padding-top: 40px;height: 300px;" >
+                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                <h6 style="letter-spacing: 2px;padding-top: 30px;padding-bottom: 10px;">Easy to Buy and sell</h6> 
+              <p style="font-size: 12px;font-weight: lighter;">Lorem ipsum, or lipsum as it is sometimes<br> known,
+                 is dummy text used in laying out<br> print, 
+                 graphic or web designs.</p><br>
+    
+               <p style="font-size: small;">Mahendra Sharma,Google Play</p>  
+              </div>
+              </div> 
+         
+              <div class="col-md-2" style="margin-top: 100px;">
+                <div class="text-truncate" style="background-color: rgb(53, 34, 34);color: white; width: 260px;
+                padding-left: 40px;border-radius: 8px;padding-top: 40px;height: 300px;" >
+                  <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                  <h6 style="letter-spacing: 2px;padding-top: 30px;padding-bottom: 10px;">Revoulutionary</h6> 
+                <p style="font-size: 12px;font-weight: lighter;">Lorem ipsum, or lipsum as it is sometimes<br> known,
+                   is dummy text used in laying out<br> print, 
+                   graphic or web designs.</p><br>
+      
+                 <p style="font-size: small;">Ranveer Dahiya ,Google Play</p>  
+                </div>
+                </div>
+          </div> 
+           </div>
+    <div class="container-fluid">
+     <div class="row justify-content-end">
+       
+    <div class="col-sm-5" style="margin-top: 50px;">
+    
+    <div class="text-truncate">
+      <img style="border-radius: 20px;width: 80px;" src="./images/logoo.jpg" class="img-fluid" > 
+    <p style="font-weight: bolder;font-size:38px;">Join over a million of <br>happy users!</p>
+    <p style="font-size: small;">Lorem ipsum, or lipsum as it is sometimes known, is dummy text <br>used in laying out print, graphic or web designs. The 
+      passage </p>
+    </div>
+    <img style="width: 200px;" src="./images/gplay.png" class="img-fluid">  
+    </div>
+    <div class="col-sm-4" style="margin-right: 50px;">
+<img style="width: 220px;margin-top: 20px;margin-bottom: 20px;" src="./images/mob4.png" class="img-fluid">
+    </div>
+     </div> 
+    </div>
+    </section>
+    <section class="yellow">
+    <div class="container-fluid">
+      <div class="row">
+<div class="col-md-12">
+
+</div>
+      </div>
+
+    </div>
+    </section>
+</landing>
+
+
+
+
+<footer >
+  <section class="gray" id="Contact">
+  <div class="container-fluid" >
+    <div class="container">
+    <div class="row justify-content-center">		
+     <h5 style="padding-top: 40px;font-weight: bolder;">India is Talking About Us </h5> 	
+    <div class="image1">
+     <img src="images/logoss.jpeg" class="img-fluid">
+         </div>
+        </div>
+         </div>
+    </div>
+  </section>
+  <section class=yellow>
+<div class="container-fluid">
+
+<div class="row justify-content-around" style="padding-top: 50px;">		
+    <div class="col-sm-3" style="text-align: end;"  >
+   
+      <img src="images/quesmark.jpeg" class="img-fluid" alt="Responsive image" style="height:90px;width: 120px;">
+ 
+    </div>
+    <div class="col-sm-3">
+      <h4 >Have Any Questions?<br>
+        <button style="margin-top: 20px;" type="button" class="btn btn-dark"><h6 style="margin-left: 10px;margin-right: 10px;">Contact support</h6>
+        </button></h4>
+    </div>
+    <div class="col-sm-6">
+    <h5 style="font-weight: bold;padding-bottom: 10px;">Quick Links</h5>
+    <div >
+    <a href="" style="margin-right: 10px;color: black;">What's New</a>
+    <a href="" style="margin-right: 10px;color: black;">Testimonials</a>
+  <a href="" style="margin-right: 10px;color: black;">Features</a>
+  <a href="" style="margin-right: 10px;color: black;">Our Team</a>
+  <a href="" style="color: black;" >Contact Us</a><br>
+ <a href="" style="margin-right: 10px;color: black;">Privacy Policy</a>  
+ <a href="" style="color: black;">Terms & Conditions</a>
+    </div>
+    </div>	
+     </div>
+     <div class="container">
+     <p>
+      <hr/>
+      </p>
+  </div>   
+</div>
+<div class="container-fluid">
+<div class="row justify-content-center" style="margin-top: 80px;font-weight: bold;padding-bottom: 20px;">
+
+<div class="col-sm-3 border-right" style="text-align: center;font-size:10x;"  >
+<p><i style="padding-right: px;width: 20px;" class="fas fa-map-marker-alt"></i>19H, Delhi - Jaipur Expy, Udhyog Vihar,<br>
+sector 2, Gurugram, Haryana 291029</p>
+</div>
+<div class="col-sm-3 border-right" style="text-align: center;font-size:10x;">
+  <p><i style="padding-right: px;width: 20px;" class="fas fa-envelope"></i>info@Khalihanbazaar.com</p>
+  </div>
+  <div class="col-sm-3" style="text-align: center;font-size:10x;">
+    <mobile><i style="padding-right: 3px;width: 18px;" class="fas fa-mobile-alt"></i>+919829304828</mobile>
+    </div>
+</div>
+</div>
+</section>  
+
+
+    <div class="container-fluid">
+    <div class="row justify-content-around" style="background-color: rgb(44, 40, 40);color:white;padding-top: 20px;padding-bottom: 20px;">
+      <div class="col-sm-3">
+      @2020 Khalihan Bazzar. All right reserved
+       </div>  
+      
+       <div class="col-sm-3" >
+        <a style="color: white;padding-right: 10px;" href="#!" role="button"><i class="fab fa-facebook-f fa-lg"></i></a>
+<a style="color: white;padding-right: 10px;" href="#!" role="button"><i class="fab fa-twitter fa-lg"></i></a>
+<a style="color: white;padding-right: 10px;" href="#!" role="button"><i class="fab fa-instagram fa-lg"></i></a>
+<a style="color: white;" href="#!" role="button"><i class="fab fa-youtube fa-lg"></i></a>
+          </div>
+          </div>
+          </div>
+    </footer>
+  </body>
+</html>
